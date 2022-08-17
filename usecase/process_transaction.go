@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/domain"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/dto"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/domain"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/dto"
 	"time"
 )
 

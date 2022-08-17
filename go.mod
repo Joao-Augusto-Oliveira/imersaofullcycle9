@@ -1,4 +1,4 @@
-module github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank
+module github.com/Joao-Augusto-Oliveira/imersaofullcycle9
 
 go 1.15
 

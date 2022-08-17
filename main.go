@@ -3,9 +3,9 @@ package main
 import (
 	"database/sql"
 	"fmt"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/domain"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/infrastructure/repository"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/usecase"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/domain"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/infrastructure/repository"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/usecase"
 	_ "github.com/lib/pq"
 	"log"
 )
