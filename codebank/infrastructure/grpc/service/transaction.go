@@ -2,9 +2,9 @@ package service
 
 import (
 	"context"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/dto"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/infrastructure/grpc/pb"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/usecase"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/dto"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/infrastructure/grpc/pb"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/usecase"
 	"github.com/golang/protobuf/ptypes/empty"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

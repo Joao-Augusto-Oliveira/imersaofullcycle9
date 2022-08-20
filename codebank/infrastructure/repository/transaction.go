@@ -3,7 +3,7 @@ package repository
 import (
 	"database/sql"
 	"errors"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/domain"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/domain"
 )
 
 type TransactionRepositoryDb struct {

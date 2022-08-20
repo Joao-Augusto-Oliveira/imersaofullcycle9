@@ -2,9 +2,9 @@ package usecase
 
 import (
 	"encoding/json"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/domain"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/dto"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/infrastructure/kafka"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/domain"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/dto"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/infrastructure/kafka"
 	"os"
 	"time"
 )
@@ -39,7 +39,7 @@ func (u UseCaseTransaction) ProcessTransaction(transactionDto dto.Transaction) (
 	if err != nil {
 		return domain.Transaction{}, err
 	}
-	err = u.KafkaProducer.Publish(string(transactionJson), topic: "payments")
+	err = u.KafkaProducer.Publish(string(transactionJson),os.Getenv("KafkaTransactionsTopic"))
 	if err != nil {
 		return domain.Transaction{}, err
 	}

@@ -1,9 +1,9 @@
 package server
 
 import (
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/infrastructure/grpc/pb"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/infrastructure/grpc/service"
-	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/usecase"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/infrastructure/grpc/pb"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/infrastructure/grpc/service"
+	"github.com/Joao-Augusto-Oliveira/imersaofullcycle9/codebank/usecase"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 	"log"
